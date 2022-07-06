@@ -10,15 +10,17 @@ public class Calculator {
 
 	public int multiply(int a, int b) {
 		// TODO Auto-generated method stub
+	
 		return a * b;
 	}
 	
 	public int divide(int a, int b) {
-//		if (b == 0) {
-//			throw  Illegal
-//		}
+		if (b == 0) {
+			throw new IllegalArgumentException("Division by zero is not supported");
+	}
 		return a / b;
 	}
 
 	
+
 }
