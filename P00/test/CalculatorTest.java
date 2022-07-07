@@ -90,7 +90,7 @@ public class CalculatorTest {
 	@Test
 	public final void testDivideWith0Denominator() {
 		int a = 20;
-		int c = 2;
+		int c = 4;
 		//fail ("Not yet implemented");
 		
 		try {
